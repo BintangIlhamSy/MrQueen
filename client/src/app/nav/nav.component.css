@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+
+.nav-logo {
+  max-width: 64px;
+  max-height: 64px;
+}
+
+.navbar {
+  border: 2px solid rgb(226, 152, 236);
+}
+.navbar .navbar-nav li {
+  font-family: "Fraunces", serif;
+  margin: 0.4rem 1rem;
+  font-weight: 800;
+}
+
+.navbar .navbar-nav li a:hover {
+  color: rgb(201, 54, 144);
+  background-color: white;
+  border-radius: 35px;
+  border: 2px solid rgb(222, 156, 228);
+}
+
+.navbar .navbar-nav .nav-item a {
+  color: white;
+}
+
+.button-login {
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+.button-login:hover {
+  background-color: transparent;
+  border: 3px solid rgb(129, 240, 114);
+  color: whitesmoke;
+}
+
+.form-inline {
+  padding: 0.4rem 1rem;
+}
+
+.form-inline input {
+  border-radius: 25px;
+  text-align: center;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.dropdown-toggle {
+  border-radius: 25px;
+  background-color: transparent;
+  border: 2px solid rgb(255, 89, 200);
+  color: white;
+}
+.dropdown-menu {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.dropdown-menu button:hover {
+  background-color: rgb(219, 134, 134);
+  color: white;
+  font-weight: bold;
+}
+
+.nav-items {
+  display: inline;
+  white-space: nowrap;
+}

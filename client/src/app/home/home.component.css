@@ -1,0 +1,51 @@
+.jumbotron {
+  background: url("./img/home-banner.png") no-repeat 100%;
+}
+
+.promote {
+  text-transform: capitalize;
+}
+
+.testimony {
+  text-align: center;
+  font-style: italic;
+  font-size: 28px;
+  padding-top: 4rem;
+}
+
+.regis-app {
+  padding: 0.5rem 1rem;
+  border: 3px solid rgb(0, 162, 255);
+  border-radius: 25px;
+  background-color: transparent;
+  color: black;
+  font-weight: bold;
+  margin: auto 2rem;
+}
+
+.about-app {
+  padding: 0.5rem 1rem;
+  border: 3px solid rgb(207, 214, 109);
+  border-radius: 25px;
+  background-color: transparent;
+  color: black;
+  font-weight: bold;
+}
+
+.form-regis {
+  margin: 1rem 5rem;
+  border-radius: 25px;
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.card-header {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.submit-regis,
+.cancel-regis {
+  margin-left: 0.4rem;
+  border-radius: 25px;
+  padding: 0.1rem 2.1rem;
+}

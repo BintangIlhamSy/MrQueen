@@ -1,0 +1,17 @@
+.form-regis {
+  margin: 1rem 5rem;
+  border-radius: 25px;
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.card-header {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.submit-regis,
+.cancel-regis {
+  margin-left: 0.4rem;
+  border-radius: 25px;
+  padding: 0.1rem 2.1rem;
+}
