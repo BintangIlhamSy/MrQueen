@@ -1,4 +1,3 @@
-import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -22,10 +21,5 @@ export class HomeComponent implements OnInit {
 
   cancelRegisterMode(event: boolean){
     this.regisToogle = event;
-  }
-
-  getStatusRegistration(event: string){
-    this.successRegis = event;
-    console.log(this.successRegis);
   }
 }

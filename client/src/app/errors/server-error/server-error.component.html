@@ -1,0 +1,28 @@
+<div class="container">
+    <div class="row">
+        <div class="col-8">
+            <img class="server-error-anima" src="https://gmedia.net.id/upload/foto_artikel/20201127TpK6yDuJ2n.png" alt="server-error">
+        </div>
+        <div class="col-4 server-error-message">
+            <h3 class="header-text">
+                Whoosh! Server Error..
+            </h3>
+            <p class="message-text">
+                Something went wrong ...
+                Try to refresh this page or feel free to read problems below, to solve your problem. If stuck,
+                please contact us in <b>admin@datingapp.com</b>
+            </p>
+            <p class="text-justify text-danger">
+                <b>Problem: </b>{{error.message}}
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <p class="text-danger"><b>Details Error:</b></p>
+        <div class="col-12">
+            <code class="mt-5 detail-error">
+                {{error.details}}
+            </code>
+        </div>
+    </div>
+</div>

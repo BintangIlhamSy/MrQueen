@@ -1,0 +1,20 @@
+.server-error-message {
+  padding: 3rem 0.9rem;
+  text-align: justify;
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+.header-text {
+  font-weight: bold;
+  font-size: 32px;
+  color: #da7272;
+}
+
+.message-text {
+  padding: 3rem 0.3rem;
+}
+
+.server-error-anima {
+  max-width: 600px;
+  padding: 3rem 0.3rem;
+}

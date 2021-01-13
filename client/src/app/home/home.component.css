@@ -25,10 +25,10 @@
 
 .about-app {
   padding: 0.5rem 1rem;
-  border: 3px solid rgb(207, 214, 109);
+  border: 3px solid rgb(243, 167, 81);
   border-radius: 25px;
   background-color: transparent;
-  color: black;
+  color: white;
   font-weight: bold;
 }
 
@@ -38,14 +38,6 @@
   font-family: "Lucida Sans", sans-serif;
 }
 
-.card-header {
-  font-weight: bold;
-  font-size: 18px;
-}
-
-.submit-regis,
-.cancel-regis {
-  margin-left: 0.4rem;
-  border-radius: 25px;
-  padding: 0.1rem 2.1rem;
+.regis-app {
+  color: white;
 }
